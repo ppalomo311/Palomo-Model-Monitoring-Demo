@@ -1,0 +1,16 @@
+faker
+ipykernel
+jupyter
+jupyter_client
+jupyter_core
+matplotlib
+numpy
+pandas
+pydantic
+python-dotenv
+pyvis
+scikit-learn
+scipy
+setuptools
+streamlit
+plotly

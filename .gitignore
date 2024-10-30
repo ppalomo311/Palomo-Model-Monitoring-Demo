@@ -1,0 +1,14 @@
+# private info
+.env
+
+# data
+data/*.json
+data/*.csv
+data/source/*.csv
+
+# models
+models/secrecy-en/
+
+# python packaging
+build
+*.egg-info

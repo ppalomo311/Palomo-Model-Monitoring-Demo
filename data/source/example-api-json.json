@@ -1,0 +1,72 @@
+{
+    "classifers": [
+      {
+        "id": 1,
+        "name": "MODEL:smarsh-rumor-en:rumor-en-lr:1.2.0",
+        "labels": ["politics","economics", "sports"]
+      },
+      {
+        "id": 2,
+        "name": "MODEL:smarsh-harassment-en:harassment-en-lr:1.4.0",
+        "labels": ["positive","negative"]
+      }
+    ],
+    "results": [
+      {
+        "recordIdentifier": "1.1",
+        "sentence": "Or was Ms. Oliphant elected for life?",
+        "classifiers": [
+          {
+            "id": 1,
+            "confidence": [0.65, 0.3, 0.05]
+          },
+          {
+            "id": 2,
+            "confidence": [0.15, 0.85]
+          }
+        ]
+      },
+      {
+        "recordIdentifier": "1.2",
+        "sentence": "If you know",
+        "classifiers": [
+          {
+            "id": 1,
+            "confidence": [0.01, 0.02, 0.01]
+          },
+          {
+            "id": 2,
+            "confidence": [0.01, 0.99]
+          }
+        ]
+      },
+      {
+        "recordIdentifier": "1.3",
+        "sentence": "please reply to this e-mail and inform me about the process.",
+        "classifiers": [
+          {
+            "id": 1,
+            "confidence": [0.01,0.01,0.01]
+          },
+          {
+            "id": 2,
+            "confidence": [0.01,0.99]
+          }
+        ]
+      },
+      {
+        "recordIdentifier": "2.1",
+        "sentence": "thanks for the confirmation.",
+        "classifiers": [
+          {
+            "id": 1,
+            "confidence": [0.01,0.01,0.01]
+          },
+          {
+            "id": 2,
+            "confidence": [0.01, 0.99]
+          }
+        ]
+      }
+    ]
+  }
