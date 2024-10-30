@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.logo(
-    image = 'https://www.morganstanley.com/etc.clientlibs/msdotcomr4/clientlibs/clientlib-site/resources/img/logo-black.png',
+    image = 'https://www.smarsh.com//media/smarsh-logo-new.svgv',
     icon_image=None
 )
 
